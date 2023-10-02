@@ -16,7 +16,7 @@ from os import remove
 # from ctypes import windll
 import concurrent.futures
 import pickle 
-from . import dance
+from qr_validator import dance
 executor = concurrent.futures.ThreadPoolExecutor() 
 global etru
 
