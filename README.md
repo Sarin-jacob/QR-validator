@@ -14,8 +14,9 @@ pip install qr-validator
 ```
 Then to run it, execute the following in the terminal:
 ```
- python -m qr-validator
+ qr-validator
 ```
+>if multiple python versions are available use `python -m qr_validator` instead of `qr-validator`
 
 
 To use this script, follow these steps:

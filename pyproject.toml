@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "qr-validator"
-version = "0.2.4"
+version = "0.2.5"
 description = "The QR Validator is a Python script designed to validate QR codes and perform actions based on the QR code content. It can be used for tasks such as coupon validation and email notifications."
 authors = ["Sarin C Jacob <sarin.c.jacob2001@gmail.com>"]
 maintainers = ["Sarin C Jacob <sarin.c.jacob2001@gmail.com>"]
@@ -20,3 +20,7 @@ pandas = "<=2.1.1"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+qr-validator = "qr_validato:__main__"
+
