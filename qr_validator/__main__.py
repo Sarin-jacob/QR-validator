@@ -16,7 +16,7 @@ from os import remove
 # from ctypes import windll
 import concurrent.futures
 import pickle 
-import dance
+from . import dance
 executor = concurrent.futures.ThreadPoolExecutor() 
 global etru
 

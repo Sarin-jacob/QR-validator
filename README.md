@@ -5,6 +5,18 @@
 The QR Validator is a Python script designed to validate QR codes and perform actions based on the QR code content. It can be used for tasks such as coupon validation and email notifications.
 
 ## Getting Started
+### Prerequisites
+Python 3.7.1 - < 4.0.0
+### Installation
+You can install this project using [PyPI](https://pypi.org/project/qr-validator/):
+```
+pip install qr-validator
+```
+Then to run it, execute the following in the terminal:
+```
+ python -m qr-validator
+```
+
 
 To use this script, follow these steps:
 
